@@ -1,8 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">
+      
+        <el-button type="success">home页面</el-button>
+      </router-link> |
+      <router-link to="/about">
+        <el-button type="success">about页面</el-button>
+
+      </router-link>
     </div>
     <router-view/>
   </div>
